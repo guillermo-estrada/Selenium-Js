@@ -1,5 +1,5 @@
 //Initial configuration
-//To execute this go to the gitbash and write -> test/libraryasserts.test.js
+//To execute this go to the gitbash and write -> mocha test/libraryasserts.test.js
 //To use mochawesome use -> mocha test/libraryasserts.test.js  --reporter mochawesome --reporter-options autoOpen=true
 var webdriver = require ('selenium-webdriver'),
 {describe, it, after, before} = require('selenium-webdriver/testing'),
